@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    margin-top: 6px;
+    padding: 5px;
+    font-size: 40px;
+}
+.header ul{
+    margin-left: 25px;
+    margin-top: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 6;
+    gap: 70px;
+}
+.header ul li{
+    font-size: 35px;
+}
+.btn-header{
+    margin-top: 11px;
+}
+.login{
+    border: none;
+    padding: 10px 40px;
+    background-color: #204E51;
+    color: #FFFFFF;
+    margin-right: 15px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+.signup{
+    font-size: 22px;
+    background-color: transparent;
+    padding: 10  30px;
+    border-color: #204E51;
+    color:#204E51;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.hero{
+    margin-top: 3%;
+    height: 700px;
+    background-image: url(pexels-karol-d-409696.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.hero h1{
+    font-size: 80px;
+    padding-top: 2.5em;
+    color: #FFFFFF;
+}
+.hero p{
+    color: #FFFFFF;
+   font-size: 18px;
+}
+.btn-hero{
+    margin-top: 4%;
+}
+.get{
+    border: none;
+    padding: 10px 40px;
+    background-color: #204E51;
+    color: #FFFFFF;
+    margin-right: 15px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+.learn{
+    font-size: 22px;
+    background-color: transparent;
+    padding: 9  30px;
+    border:2px solid white;
+    color:white;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.passion{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+}
+.left-passion h1{
+    color: #204E51;
+    padding-top: 55px;
+    margin-bottom: 22px;
+    font-size: 70px;
+}
+.left-passion p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.right-passion{
+    position: relative;
+}
+.right-passion img{
+    margin-top: 4.3em;
+    border-radius: 22px;
+    width: 450px;
+    height: 550px;
+}
+.child h1{
+    position: absolute;
+    background-color:white;
+    box-shadow: 0 2px 8px gray;
+    text-align: center;
+    padding: 20px;
+    color: #204E51;
+     left:31.5em;
+     font-weight: bold;
+     font-size: 30px;
+     bottom: -810px;
+    width: 220px;
+    border-radius: 20px;
+}
+.our-service{
+    padding-top: 7em;
+    background-color:#f0f0f0;
+    /* height: 500px; */
+}
+.our-service h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #204E51;
+}
+.our-service p{
+    text-align: center;
+}
+.sbp{
+    margin-top: 60px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+.boxes{
+    box-shadow: 0px 3px 3px gray;
+    text-align: center;
+    height: 250px;
+    border-radius: 12px;
+    background-color: white;
+}
+.boxes img{
+    margin-top: 18%;
+}
+.boxes h2{
+    margin-top: 15%;
+    color: #204E51;
+    font-size: 20px;
+}
+.our-featured{
+    padding-top: 7em;
+    background-color:#f0f0f0;
+    /* height: 900px; */
+}
+.our-featured h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #204E51;
+}
+.our-featured p{
+    text-align: center;
+}
+.btn-fbp p{
+    color: #204E51;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.fbp{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: space-around;
+}
+.boxes1 {
+    box-shadow: 0px 2px 3px gray;
+    background-color: #FFFFFF;
+    height: 450px;
+    border-radius: 22px;
+}
+.boxes1 h3{
+ margin-top: 12%;
+ text-align: center;
+ color: #204E51;
+
+}
+.boxes1 img{
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    width: 200px;
+    height: 200px;
+}
+.boxes1 p{
+    line-height: 30px;
+    margin-top: 10%;
+    text-align: center;
+}
+.farming{
+    background-color: #f0f0f0;
+    height: 600px;
+    background-image: url(https://www.rmcg.com.au/app/uploads/2023/01/iStock-491151340-tractor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.farming h1{
+    padding-top: 10%;
+    margin-left: 10%;
+    font-size: 80px;
+    color:#FFFFFF;
+}
+.l-farm{
+    margin-top: 6%;
+    margin-left: 10%;
+    border: none;
+    padding: 10px 40px;
+    background-color: #204E51;
+    color: #FFFFFF;
+    margin-right: 15px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+.Contact{
+    font-size: 22px;
+    background-color: transparent;
+    padding: 10  40px;
+    border:2px solid white;
+    color:white;
+    border-radius: 8px;
+    margin-left: 15px;  
+}
+.benefits{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    /* height: 800px; */
+}
+.left-benefit h1{
+    color: #204E51;
+    padding-top: 1em;
+    margin-bottom: 22px;
+    font-size: 70px;
+}
+.right-benefit{
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    background-color: #204E51;
+    height: 600px;
+    width: 500px;
+}
+.icon{
+    padding: 20px;
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+.icon h1 {
+    padding-top: 2%;
+    font-size: 50px;
+}
+.icon i {
+    background-color: #81cdd313;
+    height: 50px;
+    padding: 30px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.benfit-btn{
+    margin-top: 6%;
+    margin-left: 10%;
+    border: none;
+    padding: 10px 40px;
+    background-color: #204E51;
+    color: #FFFFFF;
+    margin-right: 15px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+.benfit-btn i{
+    color:#FFFFFF;
+}
+.test{
+    background-color: #f0f0f0;
+    height: 700px;
+}
+.test h1{
+    text-align: center;
+    font-size: 70px;
+    color: #204E51;
+}
+.test p{
+    text-align: center;
+}
+.page{
+    box-shadow: 0px 3px 3px gray;
+    display: flex;
+    border-radius: 22px;
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 350px;
+    width: 950px;
+    background-color: #204E51;
+}
+
+.page img{
+    margin-top: 6%;
+    margin-left: 5%;
+    border-radius: 22px;
+    width: 250px;
+    height: 250px;
+}
+.text{
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.text h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.text p{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: start;
+}
+.text i{
+    color: #ffbe40;
+}
+.our-blog{
+    background-color: #f0f0f0;
+    height: 1100px;
+}
+.our-blog h1{
+    padding-top: 1em;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 70px;
+    color: #204E51;
+}
+.our-blog p{
+    padding-bottom: 3em;
+    text-align: center;
+
+}
+.obp{
+    margin-top: 2em;
+    display: grid;
+   justify-content: space-around;
+   text-align: start;
+    grid-template-columns: 400px 400px 400px;
+}
+.boxes2 h2{
+    color: #204E51;
+}
+.boxes2 p{
+padding-top: 1em;
+text-align: start;
+}
+.boxes2 a{
+    font-size:18px;
+    margin-top: -2em;
+    color: #204E51;
+}
+.boxes2 img{
+    border-radius: 22px;
+    margin-bottom: 2em;
+    width: 350px;
+    height: 450px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    color: #FFFFFF;
+    background-color: #204E51;
+}
+.footer h2{
+    padding-top: 4em;
+    padding-bottom: 20px;
+}
+.footer p{
+    padding-top: 20px;
+    padding-bottom: 2em;
+}
+/* .left-footer{
+    margin-left: 3em;
+} */
+
+.icon-foter i{
+    font-size: 25px;
+    padding-left: 8px;
+}
+.right-footer{
+    margin-left: 60px;
+    display: flex;
+}
+.pages1{
+    margin-top: -10px;
+    margin-left: -60px;
+}
+.pages2{
+    margin-top: -10px;
+    margin-left: 120px;
+}
+.pages1 p{
+    line-height: 0px;
+}
+.pages2 p{
+    line-height: 0px;
+}
+.f{
+    height: 100px;
+    background-color: #FFFFFF;
+}
+#menu{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    display: none;
+    margin-top: 3%;
+}
+/* responsive */
+@media screen and (max-width:600px){
+ #menu{
+    display: block;
+ }
+ .btn-header{
+    display: none;
+
+ }
+ .header ul{
+    display: none;
+ }
+ .header h1{
+    padding-left: 10px;
+    font-size: 25px;
+ }
+ .header{
+    /* padding: 10px 0px; */
+ }
+ .hero h1{
+    font-size: 40px;
+ }
+ .hero p{
+    margin: 12px;
+ }
+ .learn{
+    margin-right: 20px;
+    margin-top: 20px;
+ }
+ .passion{
+    flex-direction: column;
+ }
+.left-passion{
+    width: 350px;
+    margin: 20px;
+}
+.left-passion h1{
+    font-size: 38px;
+}
+
+.right-passion {
+    width: 360px;
+    margin: 20px;
+}
+.right-passion img{
+    width: 360px;
+}
+.child h1 {
+    bottom: -30px;
+
+    padding: 30px 2em;
+    font-size: 24px;
+    left: 1em;
+}
+
+
+.sbp{
+    grid-template-columns: 250px;
+    gap: 40px;
+   
+}
+.our-featured h1{
+    font-size: 36px;
+}
+.fbp{
+    grid-template-columns: 250px;
+    gap: 40px;
+
+}
+.farming h1{
+    font-size: 40px;
+}
+.Contact{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.benefits{
+    flex-direction: column;
+    padding-top: 2em;
+}
+.left-benefit {
+    width: 360px;
+    margin: 20px;
+}
+.left-benefit h1{
+    font-size: 38px;
+}
+.right-benefit{  
+    width: 360px;
+    margin: 20px;
+}
+.test h1{
+    font-size: 40px;
+}
+
+.test{
+    margin-left: 0px;
+  /* gap: 2px; */
+  padding: 0;
+}
+.page{
+    margin-right: 30em;
+    gap: 20px;
+    padding: 10px;
+    width: 300px;
+}
+.page img{
+    width: 150px;
+    height: 150px;
+}
+.page i{
+    font-size: 10px;
+}
+.page p{
+    font-size: 14px;
+}
+.page h2{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .header{
+        padding: 0px;
+    }
+    .header h1{
+        margin-top: 6px;
+        font-size: 30px;
+    }
+    .btn-header{
+        display: none;
+    }
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero p{
+        margin: 20px;
+    }
+    .left-passion ,.right-passion{
+        width: 100%;
+    }
+    .right-passion img{
+       height:428px ; 
+    }
+    .child h1 {
+        bottom: -20px;
+        padding: 30px 2em;
+        font-size: 24px;
+        left: 3em;
+    }
+    .left-passion h1{
+     font-size: 40px;
+    }
+    .sbp{
+        grid-template-columns: 250px 250px;
+        gap: 40px;
+       
+    }
+    .fbp{
+        grid-template-columns: 250px 250px;
+        gap: 40px;
+    
+    }
+    .farming h1{
+        font-size: 60px;
+    }
+    .left-benefit,.right-benefit{
+        width: 100%;
+    }
+    .left-benefit{
+        margin-bottom: 5em;
+    }
+    .right-benefit{
+        margin-bottom: -5em;
+    }
+}
