@@ -4,7 +4,6 @@
     font-family: sans-serif;
 }
 .header{
-    background-color:gainsboro;
     display: flex;
     justify-content: space-between;
 }
