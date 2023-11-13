@@ -4,6 +4,7 @@
     font-family: sans-serif;
 }
 .header{
+    background-color: greenyellow;
     display: flex;
     justify-content: space-between;
 }
@@ -114,10 +115,10 @@
     text-align: center;
     padding: 20px;
     color: #204E51;
-     left:31.5em;
+     left:3.5em;
      font-weight: bold;
      font-size: 30px;
-     bottom: -810px;
+     bottom: 20px;
     width: 220px;
     border-radius: 20px;
 }
@@ -574,7 +575,7 @@ text-align: start;
         margin: 20px;
     }
     .left-passion ,.right-passion{
-        width: 100%;
+        /* width: 100%; */
     }
     .right-passion img{
        height:428px ; 
@@ -602,7 +603,7 @@ text-align: start;
         font-size: 60px;
     }
     .left-benefit,.right-benefit{
-        width: 100%;
+        /* width: 100%; */
     }
     .left-benefit{
         margin-bottom: 5em;
